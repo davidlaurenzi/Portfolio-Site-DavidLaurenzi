@@ -4,4 +4,26 @@ Backround Color (Grey): #212121;
 Primary Type Color (White): #ffffff
 */
 
-body {background-color: #212121}
+body {
+  background-color: #212121;
+  font-family:'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: White
+}
+h1, h2, h3, h4 {
+  line-height: 1.2;
+}
+h1 {
+  font-size: 2em;
+  font-weight: 700;
+}
+h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+h3 {
+  font-size: 1em;
+  font-weight: 600;
+}
