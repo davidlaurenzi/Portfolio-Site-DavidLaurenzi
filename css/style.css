@@ -32,3 +32,19 @@ h3 {
 img {
   width: 100%;
 }
+a {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: #e39898;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  color: white;
+  text-decoration: underline;
+}
+a:active {
+  color: #e39898;
+  text-decoration: underline
+}
