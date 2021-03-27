@@ -4,6 +4,8 @@ Backround Color (Grey): #212121;
 Primary Type Color (White): #ffffff
 Secondary Color (Peach): #e39898
 Secondary Color (Green): #8da485
+
+SongDuel Link Colors: Unvisited, Hover, Focus: #cb00c3, Visited: #9d00db Active: #9600f0
 */
 
 body {
@@ -82,4 +84,16 @@ a:active {
   color: #212121;
   text-decoration: none;
   border: 1px solid #ffffff;
+}
+
+/*SongDuel Links*/
+
+.songduel-link {
+  color: #cb00c3;
+}
+.songduel-link:visited {
+  color: #9d00db;
+}
+.songduel-link:active {
+  color: #9600f0
 }
