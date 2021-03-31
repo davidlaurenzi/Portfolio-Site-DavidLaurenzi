@@ -5,8 +5,12 @@ Primary Type Color (White): #ffffff
 Secondary Color (Peach): #e39898
 Secondary Color (Green): #8da485
 
-SongDuel Link Colors: Unvisited, Hover, Focus: #cb00c3, Visited: #9d00db Active: #9600f0
+SongDuel Link Colors: Unvisited, Hover, Focus, Visited: #cb00c3, Active: #9600f0
 */
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   background-color: #212121;
@@ -20,7 +24,7 @@ h1, h2, h3, h4 {
   line-height: 1.2;
 }
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 700;
 }
 h2 {
@@ -92,4 +96,16 @@ a:active {
 }
 .songduel-link:active {
   color: #9600f0
+}
+
+/* Layout styling */
+
+.container {
+  padding: 0 12px;
+}
+.row {
+  margin: 25px 0;
+}
+#work .row {
+  padding-bottom:25px;
 }
