@@ -11,7 +11,10 @@ SongDuel Link Colors: Unvisited, Hover, Focus, Visited: #cb00c3, Active: #9600f0
 * {
   box-sizing: border-box;
 }
-
+header {
+  background-color: #212121;
+  padding: 20px 0;
+}
 body {
   background-color: #212121;
   font-family:'Montserrat', sans-serif;
@@ -107,5 +110,8 @@ a:active {
   margin: 25px 0;
 }
 #work .row {
-  padding-bottom:25px;
+  padding-bottom: 25px;
+}
+.logo {
+  max-width: 74px;
 }
