@@ -11,17 +11,40 @@ SongDuel Link Colors: Unvisited, Hover, Focus, Visited: #cb00c3, Active: #9600f0
 * {
   box-sizing: border-box;
 }
+
+/* Header and Navigation */
+
 header {
   background-color: #212121;
   padding: 20px 0;
 }
+.logo {
+  max-width: 46px;
+}
+nav {
+  display: inline-block;
+  width: 100%;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0 10px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
 body {
   background-color: #212121;
   font-family:'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.5;
-  color: #ffffff
+  color: #ffffff;
 }
 h1, h2, h3, h4 {
   line-height: 1.2;
@@ -111,7 +134,4 @@ a:active {
 }
 #work .row {
   padding-bottom: 25px;
-}
-.logo {
-  max-width: 74px;
 }
