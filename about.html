@@ -27,40 +27,35 @@
     <div class="container">
       <!-- DL Logo as link to home page -->
       <a class="logo" href="index.html">
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="74" y="80" viewBox="0 0 74 80">
-          <style type="text/css">
-            .st0 {
-              fill: #FFFFFF;
-            }
+        <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160.97 173.21">
+          <defs>
+            <style>
+              .cls-1 {
+                fill: #fff;
+              }
 
-            .st1 {
-              fill: #E39898;
-            }
+              .cls-2 {
+                fill: #e39898;
+              }
 
-            .st2 {
-              fill: #8DA485;
-            }
-          </style>
-          <g id="Layer_1">
-          </g>
-          <g id="Layer_2">
-            <g>
-              <path class="st0" d="M69,19.4c-3.6-6.1-8.6-10.9-15.1-14.4C47.6,1.7,40.3,0,32.3,0H0v80h32.3c8,0,15.3-1.7,21.6-5.1
-      			c6.4-3.4,11.5-8.3,15.1-14.4c3.5-6.1,5.3-13,5.3-20.6C74.3,32.4,72.5,25.5,69,19.4z M66.2,58.9c-3.3,5.6-7.9,10-13.8,13.1
-      			c-5.9,3.1-12.6,4.7-20.1,4.7H3.2V3.2h29.1c7.5,0,14.2,1.6,20.1,4.7c5.9,3.1,10.6,7.6,13.8,13.1c3.3,5.6,4.9,11.9,4.9,18.9
-      			C71.1,47,69.5,53.4,66.2,58.9z" />
-              <path class="st1" d="M9.7,70.3V9.9V9.7V6.5H6.5v67.1h25.9c0.2,0,0.4,0,0.5,0v-3.2c-0.2,0-0.3,0-0.5,0H9.7z" />
-              <path class="st2" d="M63.4,22.7c-3-5.1-7.2-9.1-12.5-11.9c-5.4-2.9-11.6-4.3-18.5-4.3H12.9v3.2h19.4c6.4,0,12.1,1.3,17,3.9
-      			c4.8,2.6,8.6,6.2,11.3,10.7c2.7,4.6,4,9.8,4,15.7c0,5.8-1.4,11.1-4,15.7c-2.6,4.5-6.4,8.1-11.3,10.7c-3.9,2.1-8.4,3.3-13.3,3.8
-      			v3.2c5.4-0.4,10.4-1.8,14.8-4.2c5.4-2.9,9.6-6.8,12.5-11.9c3-5.1,4.5-10.8,4.5-17.3C67.9,33.5,66.4,27.8,63.4,22.7z" />
-            </g>
+              .cls-3 {
+                fill: #8da485;
+              }
+            </style>
+          </defs>
+          <g id="Layer_2" data-name="Layer 2">
+            <path class="cls-1"
+              d="M149.4,42.08A81.6,81.6,0,0,0,116.73,11C103.06,3.69,87.34,0,70,0H0V173.21H70c17.32,0,33-3.7,46.73-11a81.58,81.58,0,0,0,32.67-31.12C157.08,118,161,103,161,86.6S157.08,55.21,149.4,42.08Zm-6,85.5a74.71,74.71,0,0,1-29.92,28.47c-12.67,6.74-27.28,10.16-43.44,10.16H7V7H70c16.18,0,30.79,3.42,43.44,10.16a74.69,74.69,0,0,1,29.92,28.46c7,12,10.61,25.82,10.61,41S150.4,115.55,143.36,127.58Z" />
+            <path class="cls-2" d="M21,152.21V14H14V159.21H70l1.14,0v-7l-1.14,0Z" />
+            <path class="cls-3"
+              d="M137.32,49.16a67.52,67.52,0,0,0-27.17-25.82Q92.61,14,70,14H28v7H70c13.86,0,26.26,2.86,36.86,8.51a61,61,0,0,1,24.42,23.18C137,62.55,140,74,140,86.6s-2.93,24.05-8.69,33.91a60.93,60.93,0,0,1-24.42,23.18,74.27,74.27,0,0,1-28.72,8.17v7a81,81,0,0,0,32-9A67.47,67.47,0,0,0,137.32,124Q147,107.56,147,86.6T137.32,49.16Z" />
           </g>
         </svg>
       </a>
       <nav>
         <ul>
           <li><a href="index.html">work</a></li>
-          <li><a href="about.html">about</a></li>
+          <li><a id="aboutbutton" href="about.html">about</a></li>
           <li><a href="#contact">contact</a></li>
         </ul>
       </nav>
@@ -76,13 +71,13 @@
     </div>
     <!-- Everything else on the page -->
     <div id="hero">
-      <div class="container">
+      <div>
         <!-- Headshot -->
         <picture>
           <source srcset="img/about/headshot_small.jpg" media="(max-width:767px)">
           <img src="img/about/headshot.jpg" alt="Headshot">
         </picture>
-        <div class="row">
+        <div class="row container">
           <!-- My story and resume download -->
           <div>
             <h2>My story</h2>
@@ -95,7 +90,7 @@
               previous experience also allows me to bring a host of print production knowledge to a team so I can help bridge any gaps between digital and printed material.</p>
             <p>In my free time, you can find me riding my bike along the beach or hiking trails here in southern California while listening to any number of playlists I’ve strung together on Spotify.</p>
             <p>Feel free to reach out with any questions or just to say hi.</p>
-            <a href="files/resume.pdf" target="_blank" class="button">my résumé</a>
+            <a id="resume" href="files/resume.pdf" target="_blank" class="button">my résumé</a>
           </div>
           <!-- Skills & Tools -->
           <div>
@@ -150,15 +145,15 @@
   <footer id="contact">
     <div class="container">
       <h2>Get in touch</h2>
-      <h3>David Laurenzi</h3>
-      <p>4215 Glencoe Ave., Unit 316<br>Marina del Rey, CA 90292<br><a href="tel:8183245056">818.324.5056</a></p>
+      <h3 class="myname">David Laurenzi</h3>
+      <p class="address">4215 Glencoe Ave., Unit 316<br>Marina del Rey, CA 90292<br><a href="tel:8183245056">818.324.5056</a></p>
       <div>
-        <a href="mailto:davidlaurenzi@gmail.com">send email</a>
+        <a href="mailto:davidlaurenzi@gmail.com" class="button">send email</a>
       </div>
 
-      <div>
+      <div class="social-icons">
         <!-- Behance Link and Icon -->
-        <a href="https://www.behance.net/davidlaurenzi" target="_blank">
+        <a class="behance" href="https://www.behance.net/davidlaurenzi" target="_blank">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
             <defs>
               <path id="behance_white-a"
@@ -196,7 +191,7 @@
           </svg>
         </a>
       </div>
-      <p>© 2021 David Laurenzi</p>
+      <p class="legaltype">© 2021 David Laurenzi</p>
     </div>
   </footer>
 

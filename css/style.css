@@ -5,37 +5,18 @@ Primary Type Color (White): #ffffff
 Secondary Color (Peach): #e39898
 Secondary Color (Green): #8da485
 
+Songduel Page Colors:
+(Dark Grey): #1a1919
+(Off White): #dcdcdc
 SongDuel Link Colors: Unvisited, Hover, Focus, Visited: #cb00c3, Active: #9600f0
 */
 
+
+
+
+/* Main Styling */
 * {
   box-sizing: border-box;
-}
-
-/* Header and Navigation */
-
-header {
-  background-color: #212121;
-  padding: 20px 0;
-}
-.logo {
-  max-width: 46px;
-}
-nav {
-  display: inline-block;
-  width: 100%;
-}
-nav > ul {
-  list-style-type: none;
-  padding: 0;
-}
-nav > ul > li {
-  display: inline-block;
-}
-nav > ul > li > a {
-  padding: 0 10px;
-  font-size: 18px;
-  font-weight: 300;
 }
 
 body {
@@ -43,7 +24,7 @@ body {
   font-family:'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 300;
-  line-height: 1.5;
+  line-height: 1.4;
   color: #ffffff;
 }
 h1, h2, h3, h4 {
@@ -64,6 +45,40 @@ h3 {
 img {
   width: 100%;
 }
+
+
+/* Header and Navigation */
+
+header {
+  background-color: #212121;
+  padding-top: 20px;
+  position: fixed;
+}
+.logo {
+  max-width: 46px;
+}
+nav {
+  display: inline-block;
+  width: 100%;
+}
+nav > ul {
+  list-style-type: none;
+  max-width: 296px;
+  padding: 0;
+  margin: 10px 0;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a, nav > ul > li > a:hover, nav > ul > li > a:focus, nav > ul > li > a:active {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 300;
+}
+#aboutbutton {
+  padding: 0 60px;
+}
+
 
 
 /*Link*/
@@ -115,23 +130,108 @@ a:active {
   border: 1px solid #ffffff;
 }
 
-/*SongDuel Links*/
 
-.songduel-link, .songduel-link:visited {
-  color: #cb00c3;
-}
-.songduel-link:active {
-  color: #9600f0
-}
 
 /* Layout styling */
-
+main {
+  padding-top: 140px;
+}
 .container {
   padding: 0 12px;
 }
 .row {
   margin: 25px 0;
 }
+
+
+
 #work .row {
   padding-bottom: 25px;
+}
+.closertype {
+  margin: 9px 0;
+}
+
+.thanks {
+  padding-bottom: 25px;
+}
+/* Footer */
+
+footer {
+  padding-top: 40px;
+}
+.social-icons {
+  padding: 40px 0 20px 0;
+  }
+  .behance {
+  padding-right: 14px;
+}
+.legaltype {
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.myname {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 5px;
+}
+.address {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+
+/* Home Page */
+
+#homehero {
+  background-color: #212121;
+  padding-top: 7px;
+  padding-bottom: 60px;
+  display: inline-block;
+  width: 100%;
+}
+.proj {
+  padding-bottom: 20px;
+}
+.proj-title {
+  margin: 0;
+  padding-top: 1em;
+}
+.proj-descript {
+  margin: 0;
+  padding: .3em 0 1.25em 0;
+}
+/* About Page */
+#resume {
+  margin: 24px 0;
+}
+
+
+
+/* SongDuel Page */
+.songduel-main {
+  background-color: #1a1919;
+}
+.songduel-light {
+  color: #1a1919;
+  background-color: #dcdcdc;
+  display: inline-block;
+  width: 100%
+}
+/*SongDuel Links*/
+
+.sd-links {
+  list-style-type: none;
+  padding: 0;
+}
+#sd-link {
+  padding-bottom: 10px;
+}
+.songduel-link, .songduel-link:visited {
+  color: #cb00c3;
+}
+.songduel-link:active {
+  color: #9600f0
 }
