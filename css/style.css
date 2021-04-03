@@ -52,6 +52,7 @@ img {
 header {
   background-color: #212121;
   padding-top: 20px;
+  width: 100%;
   position: fixed;
 }
 .logo {
@@ -63,7 +64,7 @@ nav {
 }
 nav > ul {
   list-style-type: none;
-  max-width: 296px;
+  width: 100%;
   padding: 0;
   margin: 10px 0;
 }
@@ -151,9 +152,15 @@ main {
 .closertype {
   margin: 9px 0;
 }
-
+.last-pic {
+  display: block;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+}
 .thanks {
-  padding-bottom: 25px;
+  padding: 10px 0 25px 0;
+  background-color: #212121;
 }
 /* Footer */
 
