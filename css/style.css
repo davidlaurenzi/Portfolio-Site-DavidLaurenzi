@@ -159,7 +159,8 @@ main {
   padding: 0;
 }
 .thanks {
-  padding: 10px 0 25px 0;
+  padding-top: 10px;
+  padding-bottom: 25px;
   background-color: #212121;
 }
 /* Footer */
