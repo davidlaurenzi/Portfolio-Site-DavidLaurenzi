@@ -6,7 +6,7 @@ Secondary Color (Peach): #e39898
 Secondary Color (Green): #8da485
 
 Songduel Page Colors:
-(Dark Grey): #1a1919
+(Dark Grey): #1a1819
 (Off White): #dcdcdc
 SongDuel Link Colors: Unvisited, Hover, Focus, Visited: #cb00c3, Active: #9600f0
 */
@@ -219,10 +219,10 @@ footer {
 
 /* SongDuel Page */
 .songduel-main {
-  background-color: #1a1919;
+  background-color: #1a1819;
 }
 .songduel-light {
-  color: #1a1919;
+  color: #1a1819;
   background-color: #dcdcdc;
   display: inline-block;
   width: 100%
