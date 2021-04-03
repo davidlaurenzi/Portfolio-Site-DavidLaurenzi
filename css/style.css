@@ -183,11 +183,11 @@ footer {
   display: inline-block;
   width: 100%;
   margin: 0;
-  padding-bottom: 5px;
+  padding-bottom: .33em;
 }
 .address {
   margin: 0;
-  padding-bottom: 20px;
+  padding-bottom: 1.25em;
 }
 
 
@@ -242,4 +242,60 @@ footer {
 }
 .songduel-link:active {
   color: #9600f0
+}
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  .col-md-6 {
+    width: 50%;
+  }
+  .container {
+    padding: 0 20px;
+  }
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+  nav > ul > li > a {
+    font-size: 18px;
+  }
+  h1, h2 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 1.45em;
+  }
+  #hi {
+    font-size: 2.5em;
+  }
+  #I-like {
+    font-size: 16px;
+  }
+  main {
+    padding-top: 100px;
+  }
+  body {
+    font-size: 18px;
+  }
+  .button {
+    line-height: 37px;
+    width: 132px;
+    height: 37px;
+  }
+}
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+}
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
 }
