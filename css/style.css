@@ -48,7 +48,9 @@ img {
 #hi {
   font-size: 7.5vw;
 }
-
+.no-pad-list {
+  padding-left: 20px;
+}
 /* Header and Navigation */
 
 header {
@@ -198,7 +200,7 @@ footer {
 #homehero {
   background-color: #212121;
   padding-top: 7px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   display: inline-block;
   width: 100%;
 }
@@ -249,6 +251,14 @@ footer {
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+  [class*="col-"] {
+    float: left;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
   .col-md-6 {
     width: 50%;
   }
@@ -266,6 +276,9 @@ Medium devices (640px and larger)
   }
   nav > ul > li > a {
     font-size: 18px;
+  }
+  .proj-descript {
+    font-size: 16px;
   }
   h1, h2 {
     font-size: 2em;
