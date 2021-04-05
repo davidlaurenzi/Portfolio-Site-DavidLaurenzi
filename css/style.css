@@ -48,8 +48,15 @@ img {
 #hi {
   font-size: 7.5vw;
 }
+.skillstools {
+  margin: .5em 0;
+}
 .no-pad-list {
   padding-left: 20px;
+  margin: .5em 0;
+}
+.quarter-em-margin {
+  margin: .25em 0;
 }
 /* Header and Navigation */
 
