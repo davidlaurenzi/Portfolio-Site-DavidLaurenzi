@@ -285,7 +285,7 @@ Medium devices (640px and larger)
     float: right;
     margin-top: 4px;
   }
-  nav > ul > li > a {
+  nav > ul > li > a, nav > ul > li > a:hover, nav > ul > li > a:focus, nav > ul > li > a:active {
     font-size: 18px;
   }
   .proj-descript {
@@ -322,7 +322,7 @@ Large devices (1024px or larger)
   .col-lg-5 {
     width: 37%;
   }
-  nav > ul > li > a {
+  nav > ul > li > a, nav > ul > li > a:hover, nav > ul > li > a:focus, nav > ul > li > a:active {
       font-size: 20px;
   }
   body {
