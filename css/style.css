@@ -308,6 +308,7 @@ Medium devices (640px and larger)
   }
   body {
     font-size: 18px;
+    margin-bottom: 20px;
   }
   .button {
     line-height: 37px;
