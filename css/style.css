@@ -273,6 +273,9 @@ Medium devices (640px and larger)
   .col-md-6 {
     width: 50%;
   }
+  .col-md-tools {
+    padding-left: 100px;
+  }
   .container {
     padding: 0 20px;
   }
