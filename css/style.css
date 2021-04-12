@@ -1,7 +1,7 @@
 /*
 Colors used:
 Backround Color (Grey): #212121;
-Primary Type Color (White): #ffffff
+Primary Type Color (White): #eeeeee
 Secondary Color (Peach): #e39898
 Secondary Color (Green): #8da485
 
@@ -25,7 +25,7 @@ body {
   font-size: 16px;
   font-weight: 300;
   line-height: 1.4;
-  color: #ffffff;
+  color: #eeeeee;
 }
 h1, h2, h3, h4 {
   line-height: 1.2;
@@ -96,15 +96,15 @@ nav > ul > li > a, nav > ul > li > a:hover, nav > ul > li > a:focus, nav > ul > 
 /*Link*/
 
 a {
-  color: #ffffff;
+  color: #eeeeee;
   text-decoration: none;
 }
 a:visited {
-  color: #ffffff;
+  color: #eeeeee;
   text-decoration: none;
 }
 a:hover, a:focus {
-  color: #ffffff;
+  color: #eeeeee;
   text-decoration: underline;
 }
 a:active {
@@ -121,25 +121,25 @@ a:active {
   width: 120px;
   height: 34px;
   text-align: center;
-  border: 1px solid #ffffff;
+  border: 1px solid #eeeeee;
   transition: .2s all;
 }
 .button:visited {
-  color: #ffffff;
+  color: #eeeeee;
   text-decoration: none;
 }
 .button:hover, .button:focus {
   opacity: .8;
-  background-color: #ffffff;
+  background-color: #eeeeee;
   color: #212121;
   text-decoration: none;
 }
 .button:active {
   opacity: 1;
-  background-color: #ffffff;
+  background-color: #eeeeee;
   color: #212121;
   text-decoration: none;
-  border: 1px solid #ffffff;
+  border: 1px solid #eeeeee;
 }
 
 
